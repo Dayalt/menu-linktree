@@ -34,6 +34,12 @@ body{
     margin-bottom: 15px;
     padding: 10px;
     border-radius: 15px;
+    transform: translateY(0);
+    transition: transform 0.3s ease;
+}
+.caja-h:hover{
+    transform: translateY(-2px);
+    box-shadow: 0px 2px 7px rgb(76, 75, 75);
 }
 
 /*check-circle*/
@@ -59,4 +65,9 @@ body{
     flex-direction: row;
     justify-content: space-evenly;
     /*background-color: blueviolet;*/
+}
+
+.cajaPerfil > img:hover {
+    filter: drop-shadow(0 3px 0.1rem rgb(65, 65, 65)) drop-shadow(0 0 0.75rem rgb(246, 245, 245))
+            ;
 }
