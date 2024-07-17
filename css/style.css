@@ -36,6 +36,7 @@ body{
     border-radius: 15px;
     transform: translateY(0);
     transition: transform 0.3s ease;
+    cursor: pointer;
 }
 .caja-h:hover{
     transform: translateY(-2px);
@@ -68,6 +69,6 @@ body{
 }
 
 .cajaPerfil > img:hover {
-    filter: drop-shadow(0 3px 0.1rem rgb(65, 65, 65)) drop-shadow(0 0 0.75rem rgb(246, 245, 245))
-            ;
+    filter: drop-shadow(0 3px 0.1rem rgb(65, 65, 65)) 
+            drop-shadow(0 0 0.75rem rgb(246, 245, 245));
 }
